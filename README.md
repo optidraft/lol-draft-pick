@@ -1,4 +1,4 @@
-# Project Title
+# UCI Capstone Project
 
 A brief description of what the project does.
 
