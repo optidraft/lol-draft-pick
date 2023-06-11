@@ -1,6 +1,8 @@
-# Project Title
+# UCI Capstone Project
 
-A brief description of what the project does.
+This is the capstone project of the UCI Data Science undergraduate course, under the courses Stats170A and Stats170B, with two professors, Babak Shahbaba and Faisal Nawab, as the instructors. We are the tenth group of the 2023 Graduation Capstone Project. The members who completed the project include Yuan Zhang (@yuanzzhang), Hongqu Shi (@Wi1lShi), Jingjing Xu (@Jessicaaaa2), Xiaomeng Ren (@xiaomeng0120), Boya Shao (@boyashao).
+
+[Project Brief Intro]
 
 ## Table of Contents
 
