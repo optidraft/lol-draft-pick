@@ -29,7 +29,18 @@ lol-draft-pick/
 ├── models/
 │   ├── mlp.joblib
 │   └── rf.joblib
-└── project.ipynb
+├── notebooks/
+│   ├── v10.16/
+│   │   ├── data_extract.ipynb
+│   │   ├── model_form.ipynb
+│   │   └── synergy_score.ipynb
+│   └── v13.9/
+│       ├── data_extract.ipynb
+│       ├── model_form.ipynb
+│       └── synergy_score.ipynb
+├── project.html
+├── project.ipynb
+└── README.md
 ```
 
 
