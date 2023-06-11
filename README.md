@@ -25,21 +25,21 @@ A detailed description of the project, its purpose, and any additional informati
 lol-draft-pick/
 ├── .gitignore
 ├── data/
-│   └── 13data.csv
-├── models/
+│   └── 13data.csv                  # data for training models
+├── models/                         # saved models
 │   ├── mlp.joblib
 │   └── rf.joblib
 ├── notebooks/
-│   ├── v10.16/
-│   │   ├── data_extract.ipynb
-│   │   ├── model_form.ipynb
-│   │   └── synergy_score.ipynb
-│   └── v13.9/
+│   ├── v10.16/                     # game version: 10.16
+│   │   ├── data_extract.ipynb      # data wrangling
+│   │   ├── model_form.ipynb        # train models
+│   │   └── synergy_score.ipynb     # compute synergy score
+│   └── v13.9/                      # newer game version: 13.9
 │       ├── data_extract.ipynb
 │       ├── model_form.ipynb
 │       └── synergy_score.ipynb
-├── project.html
-├── project.ipynb
+├── project.html                    # demo html file
+├── project.ipynb                   # demo models
 └── README.md
 ```
 
