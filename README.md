@@ -4,14 +4,6 @@ This is the capstone project of the UCI Data Science undergraduate course, under
 
 Our goal is to develop a system to predict the win rate of a game in League of Legends (LoL), based on the champions chosen by the player, the lineup of opposing players, and the champions banned by both players. To ensure compatibility with evolving game versions, we focused our research on two specific versions: 10.16 (60k LoL matches) and 13.9 (36k LoL matches). We hope to provide players with reasonable predictions of the battle situation as a reference through a large amount of data research on these two versions.
 
-## Table of Contents
-
-- [Project Title](#project-title)
-- [Description](#description)
-- [Project Directory](#project-directory)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
 
 
 ## Description
@@ -43,13 +35,4 @@ lol-draft-pick/
 └── README.md
 ```
 
-
-## Features
-
-- List key features or functionalities of the project.
-
-
-## Usage
-
-Provide examples or instructions on how to use the project. Include screenshots or code snippets if applicable.
 
