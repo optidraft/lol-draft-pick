@@ -28,7 +28,8 @@ lol-draft-pick/
 │   ├── v10.16/                     # game version: 10.16
 │   │   ├── data_extract.ipynb      # data wrangling
 │   │   ├── model_form.ipynb        # train models
-│   │   └── synergy_score.ipynb     # compute synergy score
+│   │   ├── synergy_score.ipynb     # compute synergy score
+│   │   └── cham_visual.Rmd          # data visualization
 │   └── v13.9/                      # newer game version: 13.9
 │       ├── data_extract.ipynb
 │       ├── model_form.ipynb
