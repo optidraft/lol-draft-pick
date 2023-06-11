@@ -1,0 +1,31 @@
+---
+title: "champion visuilization"
+author: "Hongqu Shi"
+date: "2023-06-11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(ggrepel)
+library(ggcorrplot)
+```
+
+```{r}
+table1 = read.csv('table11.csv')
+head(table1)
+```
+
+```{r}
+ggplot(table1, aes(x = log(count), y = log(winpercent), color=factor(champName))) + 
+  geom_point() +
+  geom_text_repel(aes(label = champName)) + 
+  theme_minimal() +
+  geom_vline(xintercept = median(log(table1$count)), color = 'grey') +
+  geom_hline(yintercept = median(log(table1$winpercent)), color = 'grey') +
+  theme(legend.position="none")+
+  labs(x ='log (champion appearance)',
+         y = 'log (win rate)',
+         title = 'Correlation Between Champion Appearance and Win Rate')
+```
