@@ -9,7 +9,7 @@ Our goal is to develop a system to predict the win rate of a game in League of L
 
 ## Project Pipeline
 
-[Collect data](https://github.com/optidraft/lol-data-analysis)-->[Extract tables](https://github.com/optidraft/lol-draft-pick/blob/main/notebooks/v13.9/data_extract.ipynb)-->[Compute synergy score](https://github.com/optidraft/lol-draft-pick/blob/main/notebooks/v13.9/synergy_score.ipynb)-->[Train models](https://github.com/optidraft/lol-draft-pick/blob/main/notebooks/v13.9/model_form.ipynb)-->[Deploy web user interface](https://optidraft.github.io/optidraft/)
+[Collect data](https://github.com/optidraft/lol-data-collection)-->[Extract tables](https://github.com/optidraft/lol-draft-pick/blob/main/notebooks/v13.9/data_extract.ipynb)-->[Compute synergy score](https://github.com/optidraft/lol-draft-pick/blob/main/notebooks/v13.9/synergy_score.ipynb)-->[Train models](https://github.com/optidraft/lol-draft-pick/blob/main/notebooks/v13.9/model_form.ipynb)-->[Deploy web user interface](https://optidraft.github.io/optidraft/)
 
 Simplified project demo: `project.ipynb`
 
